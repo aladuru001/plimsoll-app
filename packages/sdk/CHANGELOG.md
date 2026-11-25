@@ -4,6 +4,13 @@ All notable changes to `@plimsoll/sdk` are documented here. This project
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and the
 format of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [Unreleased]
+
+### Added
+
+- `IndexerClient.getReportBySeq(asset, seq)`: one historical report by sequence
+  number, `null` when the seq is unknown.
+
 ## [0.1.0] - 2026-11-24
 
 ### Added
